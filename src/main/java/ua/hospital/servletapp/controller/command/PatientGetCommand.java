@@ -28,7 +28,6 @@ public class PatientGetCommand implements Command {
 		}
 		
 		Optional<PatientDto> optional = patientService.findById(patientId);
-		optional.ifPresent(System.out::println);
 		
 		if(optional.isPresent()) {
 			logger.info("Patient is found and sent");

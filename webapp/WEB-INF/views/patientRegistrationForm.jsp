@@ -61,7 +61,7 @@
 	            </div>
         	</form>
 		
-		</div>>
+		</div>
 	
 	</jsp:body>
 </t:commonHtml>
